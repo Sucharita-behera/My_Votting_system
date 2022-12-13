@@ -1,0 +1,24 @@
+ 			Pseudocode for Voting
+
+	function DisplayPollResults()
+	{
+		String (pollNumber,PollDescription,WardNo,PollDate)
+		Input -- pollNumber;
+	
+		in_file=Read polldetails 
+		in_file1=Read pollresult
+	
+		While(in_file){
+		if(pollNumber == in_file[Poll No])
+			store all the details in in_file
+			print("all the the poll details")
+		}
+	
+		While(in_file1){
+		print ("Candidate Name,Number of votes ")
+		if(pollNumber == in_file1[Poll No])
+			display candidatename, candidatevotes
+		}
+		closing files
+	
+	}
